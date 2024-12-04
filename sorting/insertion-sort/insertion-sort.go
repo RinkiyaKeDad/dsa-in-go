@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// move an element to a position where it's greater than the left element
 func insertionSort(nums []int) {
 	for i := 1; i < len(nums); i++ {
 		key := nums[i]

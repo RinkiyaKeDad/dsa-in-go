@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// store min_index and then swap at the end (update start each time)
 func sortArray(nums []int) {
 	for i := 0; i < len(nums)-1; i++ {
 		min_index := i

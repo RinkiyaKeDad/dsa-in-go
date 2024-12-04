@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// keep swapping till the largest element is at the end (update end each time)
 func bubbleSort(a []int) {
 	for i := len(a) - 1; i > 0; i-- {
 		swap := false
